@@ -1,0 +1,1396 @@
+[
+  {
+    "id": 1,
+    "company": "Acme Corp",
+    "role": "Full Stack Developer",
+    "location": "London",
+    "type": "Contract",
+    "technologies": [
+      "React",
+      "HTML",
+      "CSS"
+    ],
+    "experience": "1-3 years",
+    "ctc": 6
+  },
+  {
+    "id": 2,
+    "company": "Acme Corp",
+    "role": "Full Stack Developer",
+    "location": "Leeds",
+    "type": "Internship",
+    "technologies": [
+      "HTML",
+      "Python",
+      "JavaScript"
+    ],
+    "experience": "0-1 years",
+    "ctc": 3
+  },
+  {
+    "id": 3,
+    "company": "Acme Corp",
+    "role": "QA Engineer",
+    "location": "Manchester",
+    "type": "Part-Time",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "Django",
+      "MongoDB"
+    ],
+    "experience": "1-3 years",
+    "ctc": 19
+  },
+  {
+    "id": 4,
+    "company": "CodePilot",
+    "role": "Frontend Developer",
+    "location": "Bristol",
+    "type": "Part-Time",
+    "technologies": [
+      "JavaScript",
+      "React"
+    ],
+    "experience": "5+ years",
+    "ctc": 20
+  },
+  {
+    "id": 5,
+    "company": "SoftCloud",
+    "role": "Frontend Developer",
+    "location": "Manchester",
+    "type": "Contract",
+    "technologies": [
+      "Django",
+      "HTML"
+    ],
+    "experience": "1-3 years",
+    "ctc": 10
+  },
+  {
+    "id": 6,
+    "company": "NexGen",
+    "role": "QA Engineer",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "Django",
+      "HTML"
+    ],
+    "experience": "0-1 years",
+    "ctc": 16
+  },
+  {
+    "id": 7,
+    "company": "DevCo",
+    "role": "QA Engineer",
+    "location": "London",
+    "type": "Full-Time",
+    "technologies": [
+      "Node.js",
+      "Python"
+    ],
+    "experience": "5+ years",
+    "ctc": 17
+  },
+  {
+    "id": 8,
+    "company": "CodePilot",
+    "role": "Product Designer",
+    "location": "Birmingham",
+    "type": "Full-Time",
+    "technologies": [
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "experience": "5+ years",
+    "ctc": 4
+  },
+  {
+    "id": 9,
+    "company": "Nextify",
+    "role": "Data Analyst",
+    "location": "Remote",
+    "type": "Contract",
+    "technologies": [
+      "MongoDB",
+      "HTML",
+      "CSS"
+    ],
+    "experience": "1-3 years",
+    "ctc": 11
+  },
+  {
+    "id": 10,
+    "company": "DevCo",
+    "role": "DevOps Engineer",
+    "location": "Birmingham",
+    "type": "Internship",
+    "technologies": [
+      "MongoDB",
+      "CSS",
+      "Django"
+    ],
+    "experience": "1-3 years",
+    "ctc": 17
+  },
+  {
+    "id": 11,
+    "company": "SoftCloud",
+    "role": "QA Engineer",
+    "location": "Birmingham",
+    "type": "Contract",
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "experience": "2-4 years",
+    "ctc": 11
+  },
+  {
+    "id": 12,
+    "company": "DevCo",
+    "role": "DevOps Engineer",
+    "location": "Leeds",
+    "type": "Contract",
+    "technologies": [
+      "PostgreSQL",
+      "JavaScript"
+    ],
+    "experience": "0-1 years",
+    "ctc": 6
+  },
+  {
+    "id": 13,
+    "company": "CodePilot",
+    "role": "Backend Developer",
+    "location": "Bristol",
+    "type": "Contract",
+    "technologies": [
+      "Django",
+      "TypeScript"
+    ],
+    "experience": "3-5 years",
+    "ctc": 18
+  },
+  {
+    "id": 14,
+    "company": "CodePilot",
+    "role": "Data Analyst",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "CSS",
+      "React",
+      "MongoDB",
+      "Django"
+    ],
+    "experience": "0-1 years",
+    "ctc": 12
+  },
+  {
+    "id": 15,
+    "company": "CodePilot",
+    "role": "Full Stack Developer",
+    "location": "Edinburgh",
+    "type": "Full-Time",
+    "technologies": [
+      "Python",
+      "CSS"
+    ],
+    "experience": "0-1 years",
+    "ctc": 24
+  },
+  {
+    "id": 16,
+    "company": "Acme Corp",
+    "role": "Data Analyst",
+    "location": "Remote",
+    "type": "Full-Time",
+    "technologies": [
+      "MongoDB",
+      "Node.js",
+      "TypeScript",
+      "CSS"
+    ],
+    "experience": "5+ years",
+    "ctc": 9
+  },
+  {
+    "id": 17,
+    "company": "Beta Ltd",
+    "role": "Frontend Developer",
+    "location": "Remote",
+    "type": "Contract",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "Django"
+    ],
+    "experience": "1-3 years",
+    "ctc": 18
+  },
+  {
+    "id": 18,
+    "company": "Acme Corp",
+    "role": "Frontend Developer",
+    "location": "London",
+    "type": "Internship",
+    "technologies": [
+      "Django",
+      "CSS"
+    ],
+    "experience": "5+ years",
+    "ctc": 11
+  },
+  {
+    "id": 19,
+    "company": "SoftCloud",
+    "role": "QA Engineer",
+    "location": "London",
+    "type": "Part-Time",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "experience": "1-3 years",
+    "ctc": 13
+  },
+  {
+    "id": 20,
+    "company": "Loopline",
+    "role": "QA Engineer",
+    "location": "Leeds",
+    "type": "Internship",
+    "technologies": [
+      "PostgreSQL",
+      "React"
+    ],
+    "experience": "3-5 years",
+    "ctc": 20
+  },
+  {
+    "id": 21,
+    "company": "NexGen",
+    "role": "Data Analyst",
+    "location": "Leeds",
+    "type": "Full-Time",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Django"
+    ],
+    "experience": "1-3 years",
+    "ctc": 19
+  },
+  {
+    "id": 22,
+    "company": "CodePilot",
+    "role": "Backend Developer",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "React",
+      "TypeScript"
+    ],
+    "experience": "0-1 years",
+    "ctc": 9
+  },
+  {
+    "id": 23,
+    "company": "Beta Ltd",
+    "role": "Frontend Developer",
+    "location": "Edinburgh",
+    "type": "Contract",
+    "technologies": [
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "experience": "1-3 years",
+    "ctc": 15
+  },
+  {
+    "id": 24,
+    "company": "Acme Corp",
+    "role": "Product Designer",
+    "location": "London",
+    "type": "Full-Time",
+    "technologies": [
+      "Node.js",
+      "React"
+    ],
+    "experience": "5+ years",
+    "ctc": 18
+  },
+  {
+    "id": 25,
+    "company": "NexGen",
+    "role": "Backend Developer",
+    "location": "Edinburgh",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "Python",
+      "React"
+    ],
+    "experience": "1-3 years",
+    "ctc": 15
+  },
+  {
+    "id": 26,
+    "company": "NexGen",
+    "role": "Product Designer",
+    "location": "Manchester",
+    "type": "Contract",
+    "technologies": [
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "experience": "5+ years",
+    "ctc": 16
+  },
+  {
+    "id": 27,
+    "company": "Acme Corp",
+    "role": "Data Analyst",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "HTML",
+      "Django",
+      "React"
+    ],
+    "experience": "0-1 years",
+    "ctc": 18
+  },
+  {
+    "id": 28,
+    "company": "Loopline",
+    "role": "DevOps Engineer",
+    "location": "Remote",
+    "type": "Full-Time",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "MongoDB",
+      "Django"
+    ],
+    "experience": "2-4 years",
+    "ctc": 22
+  },
+  {
+    "id": 29,
+    "company": "CodePilot",
+    "role": "Full Stack Developer",
+    "location": "Edinburgh",
+    "type": "Internship",
+    "technologies": [
+      "HTML",
+      "Node.js",
+      "React"
+    ],
+    "experience": "3-5 years",
+    "ctc": 16
+  },
+  {
+    "id": 30,
+    "company": "Edgeware",
+    "role": "QA Engineer",
+    "location": "Remote",
+    "type": "Full-Time",
+    "technologies": [
+      "React",
+      "Python",
+      "Django",
+      "CSS"
+    ],
+    "experience": "2-4 years",
+    "ctc": 19
+  },
+  {
+    "id": 31,
+    "company": "DevCo",
+    "role": "Full Stack Developer",
+    "location": "London",
+    "type": "Part-Time",
+    "technologies": [
+      "TypeScript",
+      "Python"
+    ],
+    "experience": "0-1 years",
+    "ctc": 4
+  },
+  {
+    "id": 32,
+    "company": "Acme Corp",
+    "role": "Data Analyst",
+    "location": "London",
+    "type": "Part-Time",
+    "technologies": [
+      "CSS",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "experience": "1-3 years",
+    "ctc": 15
+  },
+  {
+    "id": 33,
+    "company": "QuantumWorks",
+    "role": "QA Engineer",
+    "location": "London",
+    "type": "Internship",
+    "technologies": [
+      "TypeScript",
+      "CSS",
+      "PostgreSQL",
+      "JavaScript"
+    ],
+    "experience": "2-4 years",
+    "ctc": 23
+  },
+  {
+    "id": 34,
+    "company": "CodePilot",
+    "role": "Product Designer",
+    "location": "London",
+    "type": "Contract",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "TypeScript"
+    ],
+    "experience": "1-3 years",
+    "ctc": 21
+  },
+  {
+    "id": 35,
+    "company": "Loopline",
+    "role": "Data Analyst",
+    "location": "Bristol",
+    "type": "Part-Time",
+    "technologies": [
+      "Node.js",
+      "CSS",
+      "React",
+      "HTML"
+    ],
+    "experience": "2-4 years",
+    "ctc": 6
+  },
+  {
+    "id": 36,
+    "company": "Nextify",
+    "role": "Frontend Developer",
+    "location": "Edinburgh",
+    "type": "Full-Time",
+    "technologies": [
+      "Django",
+      "JavaScript",
+      "Node.js",
+      "TypeScript"
+    ],
+    "experience": "2-4 years",
+    "ctc": 21
+  },
+  {
+    "id": 37,
+    "company": "CodePilot",
+    "role": "DevOps Engineer",
+    "location": "Manchester",
+    "type": "Part-Time",
+    "technologies": [
+      "CSS",
+      "Django",
+      "Python",
+      "HTML"
+    ],
+    "experience": "1-3 years",
+    "ctc": 22
+  },
+  {
+    "id": 38,
+    "company": "Edgeware",
+    "role": "Backend Developer",
+    "location": "Edinburgh",
+    "type": "Full-Time",
+    "technologies": [
+      "Node.js",
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "experience": "3-5 years",
+    "ctc": 8
+  },
+  {
+    "id": 39,
+    "company": "DevCo",
+    "role": "Backend Developer",
+    "location": "Manchester",
+    "type": "Contract",
+    "technologies": [
+      "React",
+      "CSS",
+      "MongoDB",
+      "Python"
+    ],
+    "experience": "3-5 years",
+    "ctc": 18
+  },
+  {
+    "id": 40,
+    "company": "Edgeware",
+    "role": "Product Designer",
+    "location": "Bristol",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "experience": "5+ years",
+    "ctc": 6
+  },
+  {
+    "id": 41,
+    "company": "Acme Corp",
+    "role": "Product Designer",
+    "location": "Manchester",
+    "type": "Full-Time",
+    "technologies": [
+      "Python",
+      "CSS"
+    ],
+    "experience": "2-4 years",
+    "ctc": 24
+  },
+  {
+    "id": 42,
+    "company": "DevCo",
+    "role": "DevOps Engineer",
+    "location": "Remote",
+    "type": "Contract",
+    "technologies": [
+      "Django",
+      "Node.js",
+      "PostgreSQL",
+      "CSS"
+    ],
+    "experience": "5+ years",
+    "ctc": 19
+  },
+  {
+    "id": 43,
+    "company": "CodePilot",
+    "role": "Product Designer",
+    "location": "Birmingham",
+    "type": "Part-Time",
+    "technologies": [
+      "CSS",
+      "HTML"
+    ],
+    "experience": "1-3 years",
+    "ctc": 8
+  },
+  {
+    "id": 44,
+    "company": "NexGen",
+    "role": "Full Stack Developer",
+    "location": "Leeds",
+    "type": "Contract",
+    "technologies": [
+      "CSS",
+      "MongoDB",
+      "Python",
+      "React"
+    ],
+    "experience": "2-4 years",
+    "ctc": 13
+  },
+  {
+    "id": 45,
+    "company": "SoftCloud",
+    "role": "Frontend Developer",
+    "location": "Manchester",
+    "type": "Full-Time",
+    "technologies": [
+      "PostgreSQL",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "experience": "3-5 years",
+    "ctc": 20
+  },
+  {
+    "id": 46,
+    "company": "QuantumWorks",
+    "role": "Frontend Developer",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "Python",
+      "PostgreSQL"
+    ],
+    "experience": "5+ years",
+    "ctc": 11
+  },
+  {
+    "id": 47,
+    "company": "NexGen",
+    "role": "DevOps Engineer",
+    "location": "Leeds",
+    "type": "Part-Time",
+    "technologies": [
+      "MongoDB",
+      "CSS",
+      "Node.js"
+    ],
+    "experience": "3-5 years",
+    "ctc": 19
+  },
+  {
+    "id": 48,
+    "company": "Loopline",
+    "role": "Full Stack Developer",
+    "location": "Manchester",
+    "type": "Internship",
+    "technologies": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "experience": "5+ years",
+    "ctc": 5
+  },
+  {
+    "id": 49,
+    "company": "Edgeware",
+    "role": "Data Analyst",
+    "location": "Remote",
+    "type": "Internship",
+    "technologies": [
+      "MongoDB",
+      "React",
+      "CSS",
+      "Python"
+    ],
+    "experience": "5+ years",
+    "ctc": 17
+  },
+  {
+    "id": 50,
+    "company": "Beta Ltd",
+    "role": "Data Analyst",
+    "location": "Edinburgh",
+    "type": "Part-Time",
+    "technologies": [
+      "Node.js",
+      "CSS",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "experience": "0-1 years",
+    "ctc": 14
+  },
+  {
+    "id": 51,
+    "company": "Loopline",
+    "role": "Frontend Developer",
+    "location": "Leeds",
+    "type": "Contract",
+    "technologies": [
+      "CSS",
+      "JavaScript"
+    ],
+    "experience": "2-4 years",
+    "ctc": 15
+  },
+  {
+    "id": 52,
+    "company": "Nextify",
+    "role": "Frontend Developer",
+    "location": "Manchester",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "React",
+      "Django",
+      "Node.js"
+    ],
+    "experience": "2-4 years",
+    "ctc": 15
+  },
+  {
+    "id": 53,
+    "company": "QuantumWorks",
+    "role": "Frontend Developer",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "HTML",
+      "CSS"
+    ],
+    "experience": "3-5 years",
+    "ctc": 13
+  },
+  {
+    "id": 54,
+    "company": "Nextify",
+    "role": "Full Stack Developer",
+    "location": "Remote",
+    "type": "Internship",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "experience": "2-4 years",
+    "ctc": 11
+  },
+  {
+    "id": 55,
+    "company": "Beta Ltd",
+    "role": "Frontend Developer",
+    "location": "Leeds",
+    "type": "Full-Time",
+    "technologies": [
+      "React",
+      "Node.js"
+    ],
+    "experience": "1-3 years",
+    "ctc": 24
+  },
+  {
+    "id": 56,
+    "company": "QuantumWorks",
+    "role": "Frontend Developer",
+    "location": "Leeds",
+    "type": "Part-Time",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "experience": "2-4 years",
+    "ctc": 22
+  },
+  {
+    "id": 57,
+    "company": "Nextify",
+    "role": "Product Designer",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "MongoDB",
+      "HTML"
+    ],
+    "experience": "0-1 years",
+    "ctc": 18
+  },
+  {
+    "id": 58,
+    "company": "Nextify",
+    "role": "Frontend Developer",
+    "location": "Manchester",
+    "type": "Full-Time",
+    "technologies": [
+      "HTML",
+      "Python"
+    ],
+    "experience": "1-3 years",
+    "ctc": 19
+  },
+  {
+    "id": 59,
+    "company": "Beta Ltd",
+    "role": "Data Analyst",
+    "location": "Bristol",
+    "type": "Full-Time",
+    "technologies": [
+      "Django",
+      "React"
+    ],
+    "experience": "2-4 years",
+    "ctc": 25
+  },
+  {
+    "id": 60,
+    "company": "Beta Ltd",
+    "role": "DevOps Engineer",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "experience": "3-5 years",
+    "ctc": 22
+  },
+  {
+    "id": 61,
+    "company": "Loopline",
+    "role": "Frontend Developer",
+    "location": "Birmingham",
+    "type": "Part-Time",
+    "technologies": [
+      "MongoDB",
+      "JavaScript"
+    ],
+    "experience": "3-5 years",
+    "ctc": 19
+  },
+  {
+    "id": 62,
+    "company": "Edgeware",
+    "role": "QA Engineer",
+    "location": "Edinburgh",
+    "type": "Full-Time",
+    "technologies": [
+      "MongoDB",
+      "PostgreSQL",
+      "JavaScript"
+    ],
+    "experience": "2-4 years",
+    "ctc": 8
+  },
+  {
+    "id": 63,
+    "company": "DevCo",
+    "role": "Data Analyst",
+    "location": "Bristol",
+    "type": "Internship",
+    "technologies": [
+      "TypeScript",
+      "Python",
+      "Node.js"
+    ],
+    "experience": "3-5 years",
+    "ctc": 17
+  },
+  {
+    "id": 64,
+    "company": "Acme Corp",
+    "role": "DevOps Engineer",
+    "location": "Manchester",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "Node.js",
+      "React",
+      "Python"
+    ],
+    "experience": "5+ years",
+    "ctc": 8
+  },
+  {
+    "id": 65,
+    "company": "Loopline",
+    "role": "DevOps Engineer",
+    "location": "Manchester",
+    "type": "Full-Time",
+    "technologies": [
+      "Python",
+      "React",
+      "Django"
+    ],
+    "experience": "2-4 years",
+    "ctc": 12
+  },
+  {
+    "id": 66,
+    "company": "SoftCloud",
+    "role": "QA Engineer",
+    "location": "Manchester",
+    "type": "Full-Time",
+    "technologies": [
+      "Node.js",
+      "CSS"
+    ],
+    "experience": "2-4 years",
+    "ctc": 22
+  },
+  {
+    "id": 67,
+    "company": "SoftCloud",
+    "role": "Frontend Developer",
+    "location": "Leeds",
+    "type": "Internship",
+    "technologies": [
+      "JavaScript",
+      "Python"
+    ],
+    "experience": "3-5 years",
+    "ctc": 25
+  },
+  {
+    "id": 68,
+    "company": "Loopline",
+    "role": "DevOps Engineer",
+    "location": "Edinburgh",
+    "type": "Contract",
+    "technologies": [
+      "HTML",
+      "MongoDB"
+    ],
+    "experience": "3-5 years",
+    "ctc": 10
+  },
+  {
+    "id": 69,
+    "company": "Nextify",
+    "role": "Backend Developer",
+    "location": "London",
+    "type": "Internship",
+    "technologies": [
+      "Node.js",
+      "CSS",
+      "TypeScript"
+    ],
+    "experience": "0-1 years",
+    "ctc": 7
+  },
+  {
+    "id": 70,
+    "company": "Loopline",
+    "role": "DevOps Engineer",
+    "location": "Bristol",
+    "type": "Full-Time",
+    "technologies": [
+      "React",
+      "HTML",
+      "Django",
+      "JavaScript"
+    ],
+    "experience": "3-5 years",
+    "ctc": 24
+  },
+  {
+    "id": 71,
+    "company": "QuantumWorks",
+    "role": "Backend Developer",
+    "location": "Remote",
+    "type": "Contract",
+    "technologies": [
+      "Node.js",
+      "CSS",
+      "MongoDB"
+    ],
+    "experience": "5+ years",
+    "ctc": 24
+  },
+  {
+    "id": 72,
+    "company": "Nextify",
+    "role": "DevOps Engineer",
+    "location": "Leeds",
+    "type": "Internship",
+    "technologies": [
+      "Python",
+      "PostgreSQL",
+      "JavaScript",
+      "Node.js"
+    ],
+    "experience": "5+ years",
+    "ctc": 23
+  },
+  {
+    "id": 73,
+    "company": "SoftCloud",
+    "role": "QA Engineer",
+    "location": "Bristol",
+    "type": "Contract",
+    "technologies": [
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "TypeScript"
+    ],
+    "experience": "5+ years",
+    "ctc": 19
+  },
+  {
+    "id": 74,
+    "company": "Acme Corp",
+    "role": "Product Designer",
+    "location": "Remote",
+    "type": "Full-Time",
+    "technologies": [
+      "Node.js",
+      "React",
+      "JavaScript",
+      "Python"
+    ],
+    "experience": "2-4 years",
+    "ctc": 4
+  },
+  {
+    "id": 75,
+    "company": "Edgeware",
+    "role": "Data Analyst",
+    "location": "Edinburgh",
+    "type": "Internship",
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "experience": "3-5 years",
+    "ctc": 17
+  },
+  {
+    "id": 76,
+    "company": "Acme Corp",
+    "role": "Backend Developer",
+    "location": "Manchester",
+    "type": "Part-Time",
+    "technologies": [
+      "Node.js",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "experience": "0-1 years",
+    "ctc": 25
+  },
+  {
+    "id": 77,
+    "company": "Nextify",
+    "role": "Backend Developer",
+    "location": "Remote",
+    "type": "Internship",
+    "technologies": [
+      "Python",
+      "PostgreSQL",
+      "TypeScript",
+      "CSS"
+    ],
+    "experience": "1-3 years",
+    "ctc": 21
+  },
+  {
+    "id": 78,
+    "company": "SoftCloud",
+    "role": "Backend Developer",
+    "location": "Birmingham",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "Node.js",
+      "MongoDB"
+    ],
+    "experience": "3-5 years",
+    "ctc": 9
+  },
+  {
+    "id": 79,
+    "company": "NexGen",
+    "role": "QA Engineer",
+    "location": "Manchester",
+    "type": "Internship",
+    "technologies": [
+      "CSS",
+      "Python",
+      "React",
+      "HTML"
+    ],
+    "experience": "3-5 years",
+    "ctc": 22
+  },
+  {
+    "id": 80,
+    "company": "NexGen",
+    "role": "Frontend Developer",
+    "location": "Bristol",
+    "type": "Internship",
+    "technologies": [
+      "TypeScript",
+      "CSS",
+      "Django"
+    ],
+    "experience": "1-3 years",
+    "ctc": 9
+  },
+  {
+    "id": 81,
+    "company": "DevCo",
+    "role": "Product Designer",
+    "location": "Edinburgh",
+    "type": "Contract",
+    "technologies": [
+      "HTML",
+      "Node.js"
+    ],
+    "experience": "3-5 years",
+    "ctc": 20
+  },
+  {
+    "id": 82,
+    "company": "Beta Ltd",
+    "role": "QA Engineer",
+    "location": "London",
+    "type": "Full-Time",
+    "technologies": [
+      "Node.js",
+      "Python",
+      "MongoDB",
+      "React"
+    ],
+    "experience": "0-1 years",
+    "ctc": 8
+  },
+  {
+    "id": 83,
+    "company": "Nextify",
+    "role": "QA Engineer",
+    "location": "Remote",
+    "type": "Full-Time",
+    "technologies": [
+      "HTML",
+      "Python",
+      "TypeScript"
+    ],
+    "experience": "1-3 years",
+    "ctc": 8
+  },
+  {
+    "id": 84,
+    "company": "Beta Ltd",
+    "role": "Backend Developer",
+    "location": "London",
+    "type": "Contract",
+    "technologies": [
+      "Python",
+      "JavaScript",
+      "React",
+      "TypeScript"
+    ],
+    "experience": "2-4 years",
+    "ctc": 24
+  },
+  {
+    "id": 85,
+    "company": "Loopline",
+    "role": "Frontend Developer",
+    "location": "Leeds",
+    "type": "Full-Time",
+    "technologies": [
+      "Python",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "experience": "5+ years",
+    "ctc": 9
+  },
+  {
+    "id": 86,
+    "company": "Edgeware",
+    "role": "Backend Developer",
+    "location": "London",
+    "type": "Internship",
+    "technologies": [
+      "Node.js",
+      "JavaScript",
+      "Django"
+    ],
+    "experience": "1-3 years",
+    "ctc": 21
+  },
+  {
+    "id": 87,
+    "company": "Acme Corp",
+    "role": "Full Stack Developer",
+    "location": "Edinburgh",
+    "type": "Contract",
+    "technologies": [
+      "Python",
+      "Node.js"
+    ],
+    "experience": "1-3 years",
+    "ctc": 12
+  },
+  {
+    "id": 88,
+    "company": "Loopline",
+    "role": "Full Stack Developer",
+    "location": "Leeds",
+    "type": "Full-Time",
+    "technologies": [
+      "HTML",
+      "PostgreSQL",
+      "JavaScript",
+      "MongoDB"
+    ],
+    "experience": "0-1 years",
+    "ctc": 11
+  },
+  {
+    "id": 89,
+    "company": "CodePilot",
+    "role": "Full Stack Developer",
+    "location": "Edinburgh",
+    "type": "Full-Time",
+    "technologies": [
+      "React",
+      "HTML",
+      "PostgreSQL"
+    ],
+    "experience": "0-1 years",
+    "ctc": 18
+  },
+  {
+    "id": 90,
+    "company": "CodePilot",
+    "role": "DevOps Engineer",
+    "location": "Manchester",
+    "type": "Full-Time",
+    "technologies": [
+      "CSS",
+      "Django"
+    ],
+    "experience": "3-5 years",
+    "ctc": 21
+  },
+  {
+    "id": 91,
+    "company": "Edgeware",
+    "role": "Frontend Developer",
+    "location": "Manchester",
+    "type": "Full-Time",
+    "technologies": [
+      "React",
+      "CSS",
+      "PostgreSQL"
+    ],
+    "experience": "3-5 years",
+    "ctc": 14
+  },
+  {
+    "id": 92,
+    "company": "Beta Ltd",
+    "role": "Full Stack Developer",
+    "location": "Edinburgh",
+    "type": "Contract",
+    "technologies": [
+      "Node.js",
+      "CSS",
+      "Django",
+      "TypeScript"
+    ],
+    "experience": "1-3 years",
+    "ctc": 24
+  },
+  {
+    "id": 93,
+    "company": "Nextify",
+    "role": "Backend Developer",
+    "location": "London",
+    "type": "Part-Time",
+    "technologies": [
+      "HTML",
+      "React"
+    ],
+    "experience": "1-3 years",
+    "ctc": 8
+  },
+  {
+    "id": 94,
+    "company": "Nextify",
+    "role": "Product Designer",
+    "location": "Remote",
+    "type": "Full-Time",
+    "technologies": [
+      "HTML",
+      "JavaScript",
+      "Django",
+      "Python"
+    ],
+    "experience": "0-1 years",
+    "ctc": 24
+  },
+  {
+    "id": 95,
+    "company": "QuantumWorks",
+    "role": "Product Designer",
+    "location": "Bristol",
+    "type": "Full-Time",
+    "technologies": [
+      "JavaScript",
+      "PostgreSQL",
+      "HTML"
+    ],
+    "experience": "3-5 years",
+    "ctc": 24
+  },
+  {
+    "id": 96,
+    "company": "Acme Corp",
+    "role": "QA Engineer",
+    "location": "Manchester",
+    "type": "Contract",
+    "technologies": [
+      "Node.js",
+      "HTML"
+    ],
+    "experience": "2-4 years",
+    "ctc": 9
+  },
+  {
+    "id": 97,
+    "company": "Beta Ltd",
+    "role": "Frontend Developer",
+    "location": "Leeds",
+    "type": "Internship",
+    "technologies": [
+      "HTML",
+      "Node.js"
+    ],
+    "experience": "3-5 years",
+    "ctc": 17
+  },
+  {
+    "id": 98,
+    "company": "NexGen",
+    "role": "Frontend Developer",
+    "location": "Remote",
+    "type": "Part-Time",
+    "technologies": [
+      "PostgreSQL",
+      "HTML",
+      "TypeScript"
+    ],
+    "experience": "3-5 years",
+    "ctc": 16
+  },
+  {
+    "id": 99,
+    "company": "SoftCloud",
+    "role": "Data Analyst",
+    "location": "Birmingham",
+    "type": "Full-Time",
+    "technologies": [
+      "MongoDB",
+      "Django",
+      "PostgreSQL"
+    ],
+    "experience": "2-4 years",
+    "ctc": 3
+  },
+  {
+    "id": 100,
+    "company": "Loopline",
+    "role": "Frontend Developer",
+    "location": "Birmingham",
+    "type": "Internship",
+    "technologies": [
+      "HTML",
+      "MongoDB"
+    ],
+    "experience": "3-5 years",
+    "ctc": 23
+  }
+]

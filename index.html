@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Listings - Find Your Next Career Opportunity</title>
+    <meta
+      name="description"
+      content="Browse and filter job listings by role, technologies, experience level, and salary range"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" role="main">
+      <header role="banner">
+        <h1 id="main-heading">Job Listings</h1>
+        <p id="page-description">
+          Browse and filter job opportunities by role, technologies, experience
+          level, and salary range
+        </p>
+      </header>
+
+      <!-- Filter Section -->
+      <aside
+        class="filter-section"
+        role="complementary"
+        aria-labelledby="filters-heading"
+      >
+        <h2 id="filters-heading">Job Filters</h2>
+
+        <!-- Role Filter -->
+        <section
+          class="filter-group"
+          role="group"
+          aria-labelledby="role-filter-label"
+        >
+          <label id="role-filter-label" for="role-filter">Role:</label>
+          <select
+            id="role-filter"
+            class="filter-dropdown"
+            aria-describedby="role-filter-description"
+            aria-label="Select job role to filter by"
+          >
+            <option value="">All Roles</option>
+            <!-- Role options will be dynamically populated -->
+          </select>
+          <div id="role-filter-description" class="visually-hidden">
+            Choose a specific job role to filter the job listings
+          </div>
+        </section>
+
+        <!-- Technologies Filter -->
+        <section
+          class="filter-group"
+          role="group"
+          aria-labelledby="technologies-filter-label"
+        >
+          <label id="technologies-filter-label">Technologies:</label>
+          <div
+            id="technologies-filter"
+            class="checkbox-group"
+            role="group"
+            aria-describedby="technologies-filter-description"
+            aria-label="Select technologies to filter by"
+          >
+            <!-- Technology checkboxes will be dynamically populated -->
+          </div>
+          <div id="technologies-filter-description" class="visually-hidden">
+            Select one or more technologies to filter job listings
+          </div>
+          <div
+            id="technologies-filter-loader"
+            aria-live="polite"
+            aria-label="Loading technologies"
+          >
+            -
+          </div>
+        </section>
+
+        <!-- Experience Filter -->
+        <section
+          class="filter-group"
+          role="group"
+          aria-labelledby="experience-filter-label"
+        >
+          <label id="experience-filter-label" for="experience-filter"
+            >Experience Level:</label
+          >
+          <select
+            id="experience-filter"
+            class="filter-dropdown"
+            aria-describedby="experience-filter-description"
+            aria-label="Select experience level to filter by"
+          >
+            <option value="">All Experience Levels</option>
+            <!-- Experience options will be dynamically populated -->
+          </select>
+          <div id="experience-filter-description" class="visually-hidden">
+            Choose an experience level to filter the job listings
+          </div>
+        </section>
+
+        <!-- CTC Filter -->
+        <section
+          class="filter-group"
+          role="group"
+          aria-labelledby="ctc-filter-label"
+        >
+          <label id="ctc-filter-label">CTC Range (LPA):</label>
+          <div class="ctc-filter-container">
+            <div
+              class="range-slider"
+              role="group"
+              aria-labelledby="ctc-range-label"
+            >
+              <label id="ctc-range-label" class="visually-hidden"
+                >Salary range slider</label
+              >
+              <input
+                type="range"
+                id="ctc-min"
+                class="range-input"
+                min="0"
+                max="0"
+                value="0"
+                step="1"
+                aria-label="Minimum salary in LPA"
+                aria-describedby="ctc-min-value ctc-range-description"
+              />
+              <input
+                type="range"
+                id="ctc-max"
+                class="range-input"
+                min="0"
+                max="0"
+                value="0"
+                step="1"
+                aria-label="Maximum salary in LPA"
+                aria-describedby="ctc-max-value ctc-range-description"
+              />
+              <hr class="range-divider" aria-hidden="true" />
+            </div>
+            <div class="range-values" aria-live="polite">
+              <span class="range-value" aria-label="Minimum salary">
+                <span id="ctc-min-value" role="status">-</span> LPA
+              </span>
+              <span class="range-value" aria-label="Maximum salary">
+                <span id="ctc-max-value" role="status">-</span> LPA
+              </span>
+            </div>
+            <div id="ctc-range-description" class="visually-hidden">
+              Use the sliders to set minimum and maximum salary range in LPA
+              (Lakhs Per Annum)
+            </div>
+          </div>
+        </section>
+
+        <!-- Clear Filters Button -->
+        <button
+          id="clear-filters"
+          type="button"
+          aria-label="Clear all applied filters"
+          class="visually-hidden"
+        >
+          Clear All Filters
+        </button>
+      </aside>
+
+      <!-- Job Cards -->
+      <main
+        id="job-cards-container"
+        role="region"
+        aria-labelledby="job-listings-heading"
+      >
+        <h2 id="job-listings-heading" class="visually-hidden">
+          Job Listings Results
+        </h2>
+        <div id="job-count" class="visually-hidden" aria-live="polite"></div>
+        <!-- Job cards will be dynamically inserted here -->
+      </main>
+
+      <!-- Job Card Template -->
+      <template id="job-card-template">
+        <article
+          class="job-card"
+          role="article"
+          aria-labelledby="job-title-{id}"
+          tabindex="0"
+        >
+          <header>
+            <h3 id="job-title-{id}" class="job-title"></h3>
+            <div
+              class="company-info"
+              aria-label="Company and location information"
+            >
+              <span class="company-name" aria-label="Company name"></span>
+              <span aria-hidden="true"> • </span>
+              <span class="job-location" aria-label="Job location"></span>
+            </div>
+          </header>
+          <section
+            class="technologies"
+            aria-labelledby="technologies-heading-{id}"
+          >
+            <h4 id="technologies-heading-{id}" class="visually-hidden">
+              Required Technologies
+            </h4>
+            <div
+              class="tech-tags"
+              role="list"
+              aria-label="Technologies required for this position"
+            >
+              <!-- Technology tags will be inserted here -->
+            </div>
+          </section>
+          <footer class="job-details" aria-label="Job details">
+            <span
+              class="experience-level"
+              aria-label="Experience level required"
+            ></span>
+            <span class="salary" aria-label="Salary information"></span>
+          </footer>
+        </article>
+      </template>
+
+      <!-- Initial Loading Template -->
+      <template id="initial-loading-template">
+        <div
+          class="loading"
+          role="status"
+          aria-live="polite"
+          aria-label="Loading job listings"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            role="img"
+          >
+            <circle
+              class="spinner"
+              cx="12"
+              cy="12"
+              r="10"
+              fill="none"
+              stroke="#666"
+              stroke-width="2"
+              stroke-dasharray="32"
+              stroke-dashoffset="12"
+            />
+          </svg>
+          <span>Loading job listings...</span>
+        </div>
+      </template>
+
+      <!-- Loading More Jobs Template -->
+      <template id="loading-more-jobs-template">
+        <div
+          class="loading loading-more"
+          role="status"
+          aria-live="polite"
+          aria-label="Loading more job listings"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            role="img"
+          >
+            <circle
+              class="spinner"
+              cx="12"
+              cy="12"
+              r="10"
+              fill="none"
+              stroke="#666"
+              stroke-width="2"
+              stroke-dasharray="32"
+              stroke-dashoffset="12"
+            />
+          </svg>
+          <span>Loading more jobs...</span>
+        </div>
+      </template>
+
+      <!-- No Results Template -->
+      <template id="no-results-template">
+        <div class="no-results" role="status" aria-live="polite">
+          <h3 class="visually-hidden">No Results Found</h3>
+          <p>No jobs found for the selected criteria.</p>
+          <p>Try adjusting your filters.</p>
+        </div>
+      </template>
+
+      <!-- Error Template -->
+      <template id="error-template">
+        <div class="error" role="alert" aria-live="assertive">
+          <h3 class="visually-hidden">Error Loading Jobs</h3>
+          <span class="error-message"></span>
+        </div>
+      </template>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

@@ -17,7 +17,7 @@
 const JobListingsModule = (() => {
   // Constants
   const DATA_URL =
-    "https://raw.githubusercontent.com/DuneTech/code-test-1/main/data.json";
+    "https://raw.githubusercontent.com/THammami01/dune-tech-coding-test/main/data.json";
   const MIN_JOB_CARD_HEIGHT = 325;
   const INITIAL_BATCH_SIZE =
     Math.ceil(((window.innerHeight / MIN_JOB_CARD_HEIGHT) * 3) / 3) * 3; // Number of jobs to load in initial batch, ceiled to highest multiple of 3
